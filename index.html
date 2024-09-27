@@ -1,134 +1,289 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Homepage</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        header {
-            background: #ed5c34;
-            color: white;
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-        }
-        .hero {
-            background: url('homepage2.jpg') no-repeat center center;
-            background-size: cover;
-            padding: 5rem 1rem;
-            color: white;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 2.5rem;
-        }
-        .hero p {
-            font-size: 1.2rem;
-        }
-        .cta-button {
-            background: #ffdd57;
-            color: #333;
-            padding: 1rem 2rem;
-            border: none;
-            cursor: pointer;
-            font-size: 1.2rem;
-            margin-top: 1rem;
-            text-decoration: none;
-        }
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 2rem 1rem;
-        }
-        .feature {
-            flex: 1 1 300px;
-            margin: 1rem;
-            padding: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            text-align: center;
-        }
-        .about, .testimonials {
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-        .footer {
-            background: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-            .features {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
-    </style>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>TechLeads</title>
+
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- progress barstle -->
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- font wesome stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+
+
+
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+
+
 </head>
+
 <body>
+  <div class="top_container">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="">
+            <span>
+              TechLeads
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-<header>
-    <div class="logo">TechLeads</div>
-    <nav>
-        <a href="#LeaderBoard">LeaderBoard</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="about.html"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
 
-<section class="hero">
-    <h1>"Gamification transforms mundane tasks into exciting challenges."</h1>
-    <p>Your success is our priority. Discover our solutions!</p>
-    <a href="#Leaderboard" class="cta-button">Get Started</a>
-</section>
-
-<section class="features">
+              </ul>
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+        </nav>
+      </div>
+    </header>
+    <section class="hero_section ">
+      <div class="hero-container container">
+        <div class="hero_detail-box">
+          <h3>
+            Welcome to <br>
+            Best educations
+          </h3>
+          <h1>
+            school
+          </h1>
+          <p>"Gamification transforms mundane tasks into exciting challenges."
+        Your success is our priority. Discover our solutions!
+            
+          </p>
+          <div class="hero_btn-continer">
+            <a href="" class="call_to-btn btn_white-border">
+              <span>
+                Contact
+              </span>
+              <img src="images/right-arrow.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="hero_img-container">
+          <div>
+            <img src="images/pan.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- end header section -->
+  <section class="features">
     <h2>Our Key Features</h2>
     <div class="Maths">
         <h3>Maths</h3>
         <p>Short description of feature 1.</p>
+        <p></p>
+        <button name="math" type="submit">Go to</button>
     </div>
     <div class="Science">
         <h3>Science</h3>
         <p>Short description of feature 2.</p>
+        <button name="math" type="submit">Go to</button>
     </div>
     <div class="english">
         <h3>English</h3>
         <p>Short description of feature 3.</p>
+        <button name="math" type="submit">Go to</button>
     </div>
 </section>
 
-<section class="about">
-    <h2>About Us</h2>
-    <p>We are dedicated to providing the best services to our customers.</p>
-</section>
 
-<section class="testimonials">
-    <h2>What Our Customers Say</h2>
-    <p>"This service changed my life!" - Happy Customer</p>
-</section>
+  <!-- about section -->
+  <section class="about_section layout_padding">
+    <div class="container">
+      <h2 class="main-heading ">
+        About Us
+      </h2>
+      <p class="text-center">
+        An EdTech platform for small children is a digital learning space specifically designed to engage young learners, typically between the ages of 3 and 12, in a fun, interactive, and educational environment. The goal of these platforms is to provide a foundation for early learning by combining education with entertainment
+      <div class="about_img-box ">
+        <img src="images/kids.jpg" alt="" class="img-fluid w-100">
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <a href="" class="call_to-btn  ">
 
-<footer class="footer">
-    <p>TechLeads | All Rights Reserved</p>
-</footer>
+          <span>
+            Read More
+          </span>
+          <img src="images/right-arrow.png" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
 
+
+  <!-- about section -->
+
+  <!-- client section -->
+  <section class="client_section layout_padding">
+    <div class="container">
+      <h2 class="main-heading ">
+        Our Parents Feedback
+      </h2>
+      <p class="text-center">
+      </p>
+      <div class="layout_padding2">
+        <div class="client_container d-flex flex-column">
+          <div class="client_detail d-flex align-items-center">
+            <div class="client_img-box ">
+              <img src="images/student.png" alt="">
+            </div>
+            <div class="client_detail-box">
+              <h4>
+                Veniam Quis
+              </h4>
+              <span>
+                (exercitation)
+              </span>
+            </div>
+          </div>
+          <div class="client_text mt-4">
+            <p>
+                I’ve been using this platform with my 5-year-old for a few months now, and I’m so impressed with how much he’s learned! The interactive games keep him engaged, and I love that I can track his progress. He’s even started recognizing letters and numbers more quickly, and it makes learning fun, not a chore. As a parent, I feel good knowing that he’s spending time on something educational and safe. The design is very child-friendly, and the activities are both entertaining and educational. It’s the perfect mix for little learners!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- client section -->
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding-bottom">
+    <div class="container">
+
+      <h2 class="main-heading">
+        Contact Now
+
+      </h2>
+      <p class="text-center">
+
+      </p>
+      <div class="">
+        <div class="contact_section-container">
+          <div class="row">
+            <div class="col-md-6 mx-auto">
+              <div class="contact-form">
+                <form action="">
+                  <div>
+                    <input type="text" placeholder="Name">
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Phone Number">
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Email">
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Message" class="input_message">
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn_on-hover">
+                      Send
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- end contact section -->
+
+
+  <!-- landing section -->
+  <section class="landing_section layout_padding">
+    <div class="container">
+      <h2 class="main-heading">
+      
+      </h2>
+      <h2 class="main-heading number_heading">
+        
+
+      </h2>
+      <p class="landing_detail text-center">
+       
+      </p>
+    </div>
+  </section>
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+    // Australia.
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+      });
+
+      var image = 'images/maps-and-flags.png';
+      var beachMarker = new google.maps.Marker({
+        position: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+        map: map,
+        icon: image
+      });
+    }
+  </script>
+  <!-- google map js -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+  </script>
+  <!-- end google map js -->
 </body>
+
 </html>
