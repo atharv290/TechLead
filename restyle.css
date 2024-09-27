@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg\ 2.jpg');
+}
+
+.container {
+     /* Adjust the image path as needed */
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    color: #fff; /* White text for contrast */
+    text-align: center;
+}
+
+.container-form {
+    background-color: rgba(30, 30, 30, 0.8); /* Dark semi-transparent background */
+    opacity: 0.8;
+    border-radius: 10px; /* Rounded corners */
+    width: 400px;
+    padding: 40px; /* Inner spacing */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    margin: auto; /* Center the form */
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFD700; /* Gold color for the heading */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align label and inputs to the left */
+    color: white; /* White text for labels */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px; /* Reduced space below the label */
+}
+
+input, select {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff; /* White border */
+    background-color: rgba(255, 255, 255, 0.1); /* Darker input background */
+    color: white; /* White text */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+input:focus, select:focus {
+    border-color: #00bcd4; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #00bcd4; /* Button background color */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    font-size: 1em; /* Increase font size */
+}
+
+button:hover {
+    background-color: #0097a7; /* Darker shade on hover */
+}
